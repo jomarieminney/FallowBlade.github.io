@@ -1,0 +1,86 @@
+/* 
+header { 
+    
+} */
+
+* {
+    border: 1px solid black; 
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    padding: 5px;
+}
+
+html {
+    background-color:whitesmoke;
+}
+
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: whitesmoke;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: skyblue;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    background-color: whitesmoke;
+}
+
+a {
+    background-color: whitesmoke;
+}
+
+div {
+    background-color: whitesmoke;
+}
+
+footer {
+    background-color: plum;
+}
+
+img { 
+    width: 200px;
+    border-radius: 50%;
+}
+
+#Isabelle-photo1 {
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+
+
+/*  */
+#container1 {
+    display: inline-flex;
+    flex-wrap: wrap;
+   /* align-items: space-around;
+  */
+}
+
+
+#contact {
+    display: flex
+}
+
+nav a {
+    display: inline;
+}
