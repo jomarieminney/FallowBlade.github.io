@@ -4,34 +4,45 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Flashpoint</title>
+        <title>Contact Page</title>
         <meta name="description" content="Isabelle Lange">
-        <meta name="author" content="Flashpoint">
+        <meta name="author" content="Contact">
         <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
-        <nav>
-            <a id="index-link" href="index.html">Home</a>
-            <a class="special-link" href = "Contact.html">Contact</a>
-                <!-- this section is the menu links/navigation element of the page -->
-            </nav>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+          </div>
         <header>
-            <h1>Contact</h1>
+            <h1>Contact Me</h1>
         <main>
-        <form name="contact" netlify>
-            <label for="name">Name</label>
-            <input name="full-name" id="full-name" type="text"/>
-            <label for="email-address">Email Address</label>
-            <input name="email-address" id="email-address" type="email"
-            label for="message">Message</label>
-            <textarea name="message" id="message" rows="5"></textarea>
-            <button type="submit">Say Hi</button>
-        </form>
-        </main>
-        <footer>Isabelle Lange</footer>
+            
+        <form action="https://formspree.io/f/xzbwvqqg" method="post">    
+            <div class="form-item">        
+                <label for="name">Name</label>        
+                <input type="text" id="name" name="name"></div>    
+                
+                <div class="form-item">        
+                    <label for="mail">Email</label>        
+                    <input type="email" id="mail" name="email">    
+                </div>
+                
+                <div class="form-item">       
+                    <label for="message">Message</label>        
+                    <textarea id="message" name="message"></textarea></div>    
+                    
+                    <div class="form-item">        
+                        <button type="submit">Send!</button>    
+                    </div></form>
 
-    </body>
+        <footer>
+            <div class="footer">
+                Fallow Blade 2022
+            </div>
+        </footer>
+        </main>
         
 
 </html>
