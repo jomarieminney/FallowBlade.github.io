@@ -7,29 +7,50 @@ header {
     border: 1px solid black; 
 }
 
-
+/* 
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 * {
     padding: 5px;
 }
 
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: whitesmoke;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;1,100&display=swap');
+
+html {
+    font-family: 'Raleway', sans-serif;
+    background-color: grey
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;400;600;900&display=swap');
+
+
+html {
+    font-family: 'Barlow Semi Condensed', 'Arial', sans-serif;
+    background-color: #fff;
+} */
+
 html {
     background-color:whitesmoke;
 }
 
-body {
-    font-family: 'Balsamiq Sans', cursive;
-    background-color: whitesmoke;
-}
+
 
 header {
     background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
 }
 
 h1 {
     display: flex;
     justify-content: center;
-    background-color: skyblue;
+    background-color: grey;
+    
 }
 
 h2 {
@@ -38,11 +59,11 @@ h2 {
     background-color: blueviolet;
 }
 
-nav {
+/* nav {
     display: flex;
     justify-content: right;
     background-color: whitesmoke;
-}
+} */
 
 a {
     background-color: whitesmoke;
@@ -52,39 +73,123 @@ div {
     background-color: whitesmoke;
 }
 
-footer {
-    background-color: plum;
-}
 
-img { 
+/* img { 
     width: 200px;
     border-radius: 50%;
+} */
+
+#logo {
+    width: 300px;
+}
+#casepic {
+    width: 100px;
+
 }
 
-#Isabelle-photo1 {
+#imagehome {
+    width: 300px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
-justify-content: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
+#aboutmedesign {
+    display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    /* display: flex;
+    justify-content: center; */
+}
+
+#container1 {
+
+    display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto; */
+}
 
 /*  */
-#container1 {
-    display: inline-flex;
-    flex-wrap: wrap;
-   align-items: space-around;
+#container2 {
+    display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+    /* display: inline-flex;
+    flex-wrap: space-evenly; */
+   /* align-items: space-evenly; */
  
 }
 
+footer {
+    text-align: center;
+    /* justify-content: center; */
+}
 
-#contact {
+
+@media (max-width: 600px) {
+
+        #container2 
+        {  
+            flex-direction: column;
+            padding: 10px;
+            margin: 30px;
+        }
+
+        .project-type-item {
+            width: 100%;
+        }
+
+    }
+
+@media (max-width: 900px) {
+
+    
+
+}
+
+
+
+
+/* #projects {
+    display: flex;
+    align-items: space-even;
+
+} */
+
+/* #contact {
     display: flex
-}
+} */
 
-nav a {
+/* nav a {
     display: inline;
+    align-content: flex-end;
 }
 
+.topnav {
+
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+    display: flex;
+    height: 20%;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+
+
+.topnav a {
+    margin-bottom: 0%;
+
+}     */
 /* FORM CSS */
 
 form {

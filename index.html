@@ -1,7 +1,6 @@
 
 
  <!doctype html>
-
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -10,28 +9,23 @@
         <meta name="author" content="Fallow Blade">
         <link rel="stylesheet" href="styles.css">
     </head>
+   
     <body>
+
         <header>
-            <div class="header">
-                <h1>Project Fallow Blade</h1>
-                <p>Let's Build</p>
+                <div> 
+                    <img id = "logo" img src="images/logo.png"/>
               </div>
-            <!-- <h1>Project Fallow Blade</h1>
-            <h2>Let's Build!</h2> -->
-            <!-- <nav>
-                <a href="index.html">Home</a>
-                <a href="contact.html">Contact</a>
-
-            </nav> -->
-
-            <div class="topnav">
+           
+              <div class="topnav">
                 <a href="index.html">Home</a>
                 <a href="contact.html">Contact</a>
               </div>
 
         </header>
-        <div>
-            <h1>About Me</h1>
+
+        <div id="container1">
+            <h1 id="about-me-h1">About Me</h1>
             <img src="images/isabelle-photo1.jpg" id = "imagehome" alt="Personal Picture.">
             <a href='https://www.ecu.edu.au/centres/international-office/contact/'><button>LinkedIn</button></a>
             <a href='https://fallowblade.github.io/'><button>GitHub</button></a>
@@ -41,40 +35,45 @@
                 Inclusive design and a focus on the user are key. </p>
         </div>
 
-        <section id="Projects">
+        <section id="projects">
             	<h2>Projects</h2>
                 <div id = "header-text">
-                    <img src="images/briefcase.jpg" />
+                    <img src="images/briefcase.jpg" id="casepic" alt ="briefcase"/>
             	<p>
                 	What I'm working on.
             	</p>
         	</div>
 
-            <div id="container1">
-                <div id="box-1">
+            <div id="container2">
+
+                
+
+                <div class= "project-type-item" id="box-1">
                    <h2> Project ONE </h2>
                     <p>Python</p>
                 </div>
-               <div id="box-2">
+
+               <div class= "project-type-item" id="box-2">
                    <h2> Project TWO</h2>
                    <p>Django</p>
                </div>
-               <div id="box-3">
+
+               <div class= "project-type-item" id="box-3">
                 <h2> Project THREE</h2>
                 <p>DRF</p>
                 </div>
 
-                <div id="box-4">
+                <div class= "project-type-item" id="box-4">
                     <h2> Project FOUR</h2>
                     <p>React JS</p>
                 </div>
-            </div>
+
            </div>
+
     	</section>
+
         <footer>
-            <div class="footer">
                 Fallow Blade 2022
-            </div>
         </footer>
     </body>
 </html>
