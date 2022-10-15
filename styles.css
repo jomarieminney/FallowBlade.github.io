@@ -72,8 +72,8 @@ justify-content: center;
 #container1 {
     display: inline-flex;
     flex-wrap: wrap;
-   /* align-items: space-around;
-  */
+   align-items: space-around;
+ 
 }
 
 
