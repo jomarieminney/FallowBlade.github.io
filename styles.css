@@ -18,25 +18,16 @@ body {
     background-color: whitesmoke;
 }
 
-
 header {
     background-color: whitesmoke;
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
-}
-
-header.center-logo {
-
-        align-items: center;
-
-}
-
-  
+} 
 
 h1 {
     font-family: 'Balsamiq Sans';
-    color: grey;
+    color: white;
     display: flex;
     justify-content: center;
 }
@@ -123,6 +114,7 @@ nav {
     margin: 0 auto; */
 }
 
+/* THIS ISN'T WORKING.. */
 #box1 {
     background-color: #b5bdbd;
 }
@@ -134,6 +126,11 @@ nav {
     padding: 10px;
 }
 /*  */
+
+.headerbackground {
+    background-color: #333;
+}
+
 #container2 {
     display: flex;
     justify-content: space-evenly;
@@ -144,6 +141,7 @@ nav {
  
 }
 
+/* FOOTER - make it sit in the middle and the background to be almond */
 footer {
     text-align: center;
     background-color: blanchedalmond;
@@ -151,7 +149,12 @@ footer {
 }
 
 
+/* MEDIA MAX WIDTH 600 = When you shrink the page, make the rows turn into columns */
 @media (max-width: 600px) {
+
+    #imagehome {
+        width: 200px;
+    }
 
         #container2 
         {  
@@ -166,6 +169,7 @@ footer {
 
     }
 
+    /* MEDIA QUERY 900 px = When you make the page <900, change the header color to blue */
 @media (max-width: 900px) {
 
     h1 { 
@@ -174,6 +178,19 @@ footer {
 
 }
 
+/* When you make the page bigger, move the nav bar to the right hand side. */
+@media (min-width: 950px) {
+
+    nav {
+
+        background-color: #333;
+        display:block;
+        text-align: end;
+    }
+}
+
+
+   
 
 
 
