@@ -2,8 +2,8 @@
 header { 
     
 } */
-
-/* * {
+/* 
+* {
     border: 1px solid black; 
 } */
 
@@ -149,7 +149,7 @@ footer {
 }
 
 
-/* MEDIA MAX WIDTH 600 = When you shrink the page, make the rows turn into columns */
+/* MEDIA MAX WIDTH 600 = When you shrink the page, make the rows turn into columns, nav bar is centered */
 @media (max-width: 600px) {
 
     #imagehome {
@@ -167,19 +167,46 @@ footer {
             width: 100%;
         }
 
+    h1 { 
+        color: white;
     }
 
-    /* MEDIA QUERY 900 px = When you make the page <900, change the header color to blue */
+    }
+
+    /* MEDIA QUERY 900 px = When you make the page <900, change the header color to purple, space the container 2
+    boxes in a column formation (evenly) AND add a black background color to the bio <p> element. */
 @media (max-width: 900px) {
 
+    #bio {
+        /* width: 400px; */
+        font-size: 20px;
+        display: block;
+        background-color: #333;
+        color: white;
+        padding: 25px;
+        margin: 20px;
+        align-content: space-between;
+    }   
+
+    #container2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        /* align-items: */
+    }
     h1 { 
-        color: blue;
-    }    
+        color: blueviolet;
+    }  
+    
+    #contact {
+        align-content: center;
+        text-align: center;
+    }
 
 }
 
-/* When you make the page bigger, move the nav bar to the right hand side. */
-@media (min-width: 950px) {
+/* When you make the page bigger, nav bar to the right hand side, make the bio bigger */
+@media (min-width: 1200px) {
 
     nav {
 
@@ -187,44 +214,18 @@ footer {
         display:block;
         text-align: end;
     }
+
+    #bio {
+        width: 800px;
+        font-size: 20px;
+        display: block;
+        color: white;
+        padding: 50px;
+        margin: 20px;
+    }
+
 }
-
-
-   
-
-
-
-/* #projects {
-    display: flex;
-    align-items: space-even;
-
-} */
-
-/* #contact {
-    display: flex
-} */
-
-/* nav a {
-    display: inline;
-    align-content: flex-end;
-}
-
-.topnav {
-
-    display: inline-block;
-    vertical-align: text-bottom;
-}
-    display: flex;
-    height: 20%;
-    justify-content: flex-end;
-    align-items: flex-end;
-
-
-
-.topnav a {
-    margin-bottom: 0%;
-
-}     */
+     */
 /* FORM CSS */
 
 form {
@@ -273,3 +274,35 @@ form {
 .form-item button {
     width: 100px;
 }
+
+
+
+/* #projects {
+    display: flex;
+    align-items: space-even;
+
+} */
+
+/* #contact {
+    display: flex
+} */
+
+/* nav a {
+    display: inline;
+    align-content: flex-end;
+}
+
+.topnav {
+
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+    display: flex;
+    height: 20%;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+
+
+.topnav a {
+    margin-bottom: 0%;
